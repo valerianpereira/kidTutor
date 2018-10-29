@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "kid tutor",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getPledge",
+                    "slots": [],
+                    "samples": [
+                        "teach me our pledge",
+                        "teach me pledge",
+                        "national pledge",
+                        "teach me our national pledge"
+                    ]
+                },
+                {
+                    "name": "getMorningPrayer",
+                    "slots": [],
+                    "samples": [
+                        "teach me our morning prayer",
+                        "morning prayer",
+                        "teach me morning prayer"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
