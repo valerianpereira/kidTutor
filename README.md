@@ -1,5 +1,5 @@
 # kidTutor
-Teach your kid with Alexa
+Teach your kid with Alexa. Repeat after me !!!
 
 # Info
 1. Pledge
