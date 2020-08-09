@@ -23,9 +23,9 @@ jobs:
       - name: Update dependencies
         id: vars
         run: |
-          npm i -g npm-check-updates
-          ncu -u
-          npm i
+          cd lamda/custom; npm i -g npm-check-updates
+          cd lamda/custom; ncu -u
+          cd lamda/custom; npm i
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v1
