@@ -39,4 +39,3 @@ jobs:
           title: Automated Dependency Updates
           body: This is an auto-generated PR with dependency updates.
           branch: dep-updates
-          branch-suffix: none
