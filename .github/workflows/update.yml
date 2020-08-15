@@ -1,6 +1,9 @@
 name: Update NPM Dependencies
 
 on:
+  pull_request:
+    branches: 
+      - master
   schedule:
     - cron: "0 10 * * 5"
 
@@ -23,9 +26,10 @@ jobs:
       - name: Update dependencies
         id: vars
         run: |
-          cd lamda/custom; npm i -g npm-check-updates
-          cd lamda/custom; ncu -u
-          cd lamda/custom; npm i
+          npm i -g npm-check-updates
+          ls -la
+          cd lamda/custom && ncu -u
+          cd lamda/custom && npm i
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v1
